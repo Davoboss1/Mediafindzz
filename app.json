@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "react-native-ts",
-    "slug": "react-native-ts",
+    "name": "MediaFindzz",
+    "slug": "mediafindzz",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/app-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.davoboss1.mediafindzz"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8cfe2a36-d641-4c22-9fd8-15472c47e169"
+      }
     }
   }
 }

@@ -1,6 +1,9 @@
 node_modules/
 .expo/
 dist/
+tmp/
+package-lock.json
+yarn*
 npm-debug.*
 *.jks
 *.p8
